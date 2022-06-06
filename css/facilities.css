@@ -208,10 +208,6 @@ responsive
   .music-item {
     width: 50%;
   }
-
-  .click-line {
-    color: #75bdff;
-  }
 }
 
 @media screen and (max-width: 550px) {

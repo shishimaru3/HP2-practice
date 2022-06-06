@@ -9,7 +9,7 @@
 }
 
 .btn {
-  width: 30%;
+  width: 40%;
   margin: 5% auto;
   text-align: center;
   background: white;
@@ -138,7 +138,7 @@ responsive
 
 @media  screen and (max-width: 425px) {
   .btn {
-    width: 80%;
+    width: 60%;
   }
 
   .top-title h1 {
