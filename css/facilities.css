@@ -49,15 +49,17 @@ swimming section
 
 .click-line {
   text-align: center;
+  text-decoration: underline;
   font-size: 1.2rem;
+  font-weight: bold;
   cursor: pointer;
 }
 
-.click-line::after {
+/* .click-line::after {
   content: ">";
   display: inline-block;
   transform: rotate(90deg);
-}
+} */
 
 .click-line:hover {
   color: #75bdff;
@@ -170,22 +172,6 @@ music section
 
 .music-item.hidden {
   display: none;
-}
-
-.click-line {
-  text-align: center;
-  font-size: 1.2rem;
-  cursor: pointer;
-}
-
-.click-line::after {
-  content: ">";
-  display: inline-block;
-  transform: rotate(90deg);
-}
-
-.click-line:hover {
-  color: #75bdff;
 }
 
 

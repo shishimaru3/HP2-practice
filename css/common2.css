@@ -9,16 +9,18 @@
 }
 
 .btn {
-  width: 50%;
+  width: 30%;
   margin: 5% auto;
   text-align: center;
   background: white;
   border: 1px solid #00a3ff;
   border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .btn:hover {
   background: #00a3ff;
+  transition: all 0.3s;
 }
 
 .btn a {

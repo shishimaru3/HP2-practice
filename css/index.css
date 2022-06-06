@@ -179,9 +179,17 @@ facilities section
 
 ----------------------------------------*/
 .facilities-wrap h2{
-  font-size: 1.5rem;
+  font-size: 2rem;
   background: linear-gradient(transparent 80%, #ff6400);
   margin-bottom: 3%;
+}
+
+.facilities-wrap h2 span {
+  font-size: 1.2rem;
+}
+
+.facilities-wrap h2 span {
+  font-size: 1.2rem;
 }
 
 .sports-schools {

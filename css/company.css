@@ -122,6 +122,8 @@ about section
 
 .overview-line {
   display: flex;
+  align-items: center;
+  height: 8vh;
   margin-bottom: 5%;
   border-bottom: 1px solid gray;
 }
@@ -148,6 +150,8 @@ about section
 
 .history-line {
   display: flex;
+  align-items: center;
+  height: 8vh;
   margin-bottom: 5%;
 }
 
@@ -281,6 +285,10 @@ csr section
   display: block;
   text-align: center;
   padding: 3% 0;
+}
+
+.csr-wrapper p {
+  padding: 2%;
 }
 
 
