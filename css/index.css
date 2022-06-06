@@ -186,10 +186,7 @@ facilities section
 
 .facilities-wrap h2 span {
   font-size: 1.2rem;
-}
-
-.facilities-wrap h2 span {
-  font-size: 1.2rem;
+  padding-left: 3%;
 }
 
 .sports-schools {
@@ -299,10 +296,6 @@ responsive
    clip-path: polygon(70% 0, 100% 0, 100% 100%, 0 100%);
  }
 
-  /* .concept h1 {
-    font-size: 1.2rem;
-  } */
-
   .section-title {
     font-size: 3.5rem;
   }
@@ -318,6 +311,14 @@ responsive
 
   .company-img2 {
     width: 50%;
+  }
+
+  .facilities-wrap h2 {
+    font-size: 1.5rem;
+  }
+
+  .facilities-wrap h2 span {
+    font-size: 1rem;
   }
 
   .sports-item {
@@ -357,6 +358,14 @@ responsive
 
   .news-line {
     font-size: 1rem;
+  }
+
+  .facilities-wrap h2 {
+    font-size: 1.2rem;
+  }
+
+  .facilities-wrap h2 span {
+    font-size: 0.8rem;
   }
 
   .sports-item p {
