@@ -6,6 +6,7 @@ swimming section
 .section-title {
   font-size: 3rem;
   background: linear-gradient(transparent 80%, #ff6400);
+  margin-top: 15%;
 }
 
 .section-title small {

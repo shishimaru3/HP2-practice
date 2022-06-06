@@ -294,9 +294,10 @@ responsive
     bottom: 0;
     right: 0;
     left: 0%;
+    height: 100vh;
     background: rgba(255,255,255, 0.95);
     text-align: center;
-    padding: 15% 0;
+    padding: 20% 0;
     z-index: 100;
     opacity: 0;
     pointer-events: none;
@@ -318,7 +319,8 @@ responsive
 
   .overlay ul li {
     font-size: 1.2rem;
-    margin-bottom: 7.5%;
+    /* margin-bottom: 7.5%; */
+    height: 15vh;
     opacity: 0;
     transform: translateY(16px);
     transition: opacity 0.3s, transform 0.3s;

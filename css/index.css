@@ -61,7 +61,7 @@ news section
   -webkit-text-stroke: 1px #ff6400;
   /* text-stroke: 1px #ff6400; */
   letter-spacing: 3px;
-  margin-bottom: 3%;
+  margin: 15% 0 3% 0;
 }
 
 .news-wrapper {
