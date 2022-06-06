@@ -171,6 +171,7 @@ responsive
 
   .voice-item {
     display: block;
+    margin-top: 10%;
   }
 
   .voice-item img {
