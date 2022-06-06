@@ -1,0 +1,277 @@
+/* ---------------------------------------------
+
+swimming section
+
+------------------------------------------------*/
+.section-title {
+  font-size: 3rem;
+  background: linear-gradient(transparent 80%, #ff6400);
+}
+
+.section-title small {
+  font-size: 1.5rem;
+  padding-left: 3%;
+}
+
+.swimming-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.swimming-item {
+  width: 25%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.swimming-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.swimming-item img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.swimming-item p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 5%;
+}
+
+.swimming-item.hidden {
+  display: none;
+}
+
+.click-line {
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.click-line::after {
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.click-line:hover {
+  color: #75bdff;
+}
+
+/* ---------------------------------------------
+
+gymnastics section
+
+------------------------------------------------*/
+.gymnastics-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.gymnastics-item {
+  width: 25%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.gymnastics-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.gymnastics-item img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.gymnastics-item p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 5%;
+}
+
+/* ---------------------------------------------
+
+dance section
+
+------------------------------------------------*/
+.dance-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.dance-item {
+  width: 25%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.dance-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.dance-item img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.dance-item p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 5%;
+}
+
+/* ------------------------------------------------
+
+music section
+
+------------------------------------------------ */
+.music-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% 0;
+}
+
+.music-item {
+  width: 25%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.music-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.music-item img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.music-item p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 5%;
+}
+
+.music-item.hidden {
+  display: none;
+}
+
+.click-line {
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.click-line::after {
+  content: ">";
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.click-line:hover {
+  color: #75bdff;
+}
+
+
+/* -----------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+responsive
+
+--------------------------------------------------
+--------------------------------------------------
+------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-title small {
+    font-size: 1rem;
+  }
+
+  .swimming-item {
+    width: 50%;
+  }
+
+  .gymnastics-item {
+    width: 50%;
+  }
+
+  .dance-item {
+    width: 50%;
+  }
+
+  .music-item {
+    width: 50%;
+  }
+
+  .click-line {
+    color: #75bdff;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .swimming-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .swimming-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .gymnastics-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .gymnastics-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .dance-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .dance-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .music-wrapper p {
+    font-size: 1.2rem;
+  }
+
+  .music-item {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .click-line {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .section-title {
+    font-size: 1.2rem;
+  }
+}

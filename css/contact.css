@@ -1,0 +1,108 @@
+/* ----------------------------------------
+
+message section
+
+-------------------------------------------*/
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.message a {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.message a:hover {
+  color: #75bdff;
+}
+
+/* ---------------------------------------------
+
+contact section
+
+------------------------------------------------ */
+.contact-form {
+  margin: 10% 0;
+}
+
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 3% auto;
+}
+
+.contact-form-title {
+  font-size: 1.15rem;
+  width: 35%;
+}
+
+.contact-box.area {
+  align-items: baseline;
+}
+
+.contact-form-box {
+  height: 7.5vh;
+  width: 60%;
+  padding-left: 5px;
+  font-size: 1.15rem;
+}
+
+.contact-textarea {
+  height: 20vh;
+  width: 60%;
+  padding: 5px;
+}
+
+/* ------------------------------------------------
+---------------------------------------------------
+---------------------------------------------------
+
+responsive
+
+---------------------------------------------------
+---------------------------------------------------
+-------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .message {
+    font-size: 1rem;
+  }
+
+  .contact-form-title {
+    font-size: 1rem;
+  }
+
+  .contact-form-box {
+    height: 5vh;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .message {
+    text-align: left;
+  }
+
+  .message .sp {
+    display: none;
+  }
+
+  .contact-box label {
+    width: 80%;
+    margin-bottom: 2%;
+  }
+
+  .contact-box input {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .contact-box textarea {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

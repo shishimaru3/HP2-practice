@@ -1,0 +1,106 @@
+/* -------------------------------------------------
+
+news nav
+
+---------------------------------------------------- */
+.news-nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 3% auto;
+}
+
+.news-nav ul li {
+  /* border: 1px solid red; */
+  font-size: 1.5rem;
+  text-align: center;
+  border-right: 1px solid gray;
+  padding: 0 2%;
+}
+
+.news-nav ul li:last-child {
+  border: none;
+}
+
+/* common1に記載済み
+.nav color {
+  color: #75bdff;
+} */
+
+.news-nav ul li a:hover {
+  color: #75bdff;
+}
+
+/* -------------------------------------------------
+
+news2020~2022 section
+
+---------------------------------------------------- */
+.section-title {
+  font-size: 2rem;
+  background: linear-gradient(transparent 80%, #ff6400);
+}
+
+.news-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 3% 0;
+}
+
+.news-item {
+  width: 24%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.news-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.news-item h3 {
+  padding-bottom: 1%;
+}
+
+.news-item img {
+  width: 100%;
+}
+
+.news-item time {
+  display: block;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.news-item p {
+  text-align: center;
+}
+
+/* --------------------------------------------------
+-----------------------------------------------------
+-----------------------------------------------------
+
+responsive
+
+------------------------------------------------------
+------------------------------------------------------
+---------------------------------------------------- */
+@media screen and (max-width: 768px) {
+  .news-item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .news-nav ul li {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .news-item {
+    width: 80%;
+  }
+}

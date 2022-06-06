@@ -1,0 +1,441 @@
+@charset "utf-8";
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  color: rgb(50, 50, 50);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(50, 50, 50);
+}
+
+li {
+  list-style: none;
+}
+
+/* -------------------------------
+
+header
+
+----------------------------------*/
+.header-inner{
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #fff4ed;
+  padding: 1% 0;
+  /* z-index: 100; */
+}
+
+.header-logo {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+
+.header-logo img {
+  width: 20%;
+}
+
+.header-logo h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.header-logo h1 small {
+  display: block;
+  font-size: 1rem;
+}
+
+.pc-header-nav {
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 56%;
+}
+
+.pc-header-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pc-header-nav ul li {
+  /* border: 1px solid purple; */
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-right: 2px solid rgb(0, 200, 255);
+  padding: 0 3%;
+}
+
+.nav-color {
+  color: #75bdff
+}
+
+.pc-header-nav ul li:last-child {
+  border-right: unset;
+}
+
+.pc-header-nav ul li span {
+  display: block;
+  font-size: 0.8rem;
+  padding-top: 5%;
+}
+
+.pc-header-nav ul li a:hover {
+  color: #75bdff;
+}
+
+.sp-header-nav {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+
+/* -------------------------------------
+
+footer
+
+-----------------------------------------*/
+.footer-inner {
+  /* border: 3px solid red; */
+  display: flex;
+  align-items: center;
+  background-color: #fff4ed;
+}
+
+.footer-logo {
+  /* border: 1px solid pink; */
+  width: 30%;
+  word-break: keep-all;
+  padding-left: 2%;
+}
+
+.footer-logo a {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo a img {
+  width: 20%;
+}
+
+.footer-logo a h1 {
+  font-size: 2rem;
+}
+
+.footer-logo a h1 small {
+  display: block;
+  font-size: 1rem;
+}
+
+.office-info {
+  /* border: 1px solid brown; */
+  width: 40%;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.office-info h2 {
+  font-size: 1.8rem;
+}
+
+.office-info h2 small {
+  font-size: 1rem;
+  margin-left: 3%;
+}
+
+.office-info .tel {
+  font-size: 1.5rem;
+  padding-top: 3%;
+}
+
+.office-info .address {
+  font-size: 1rem;
+  padding-top: 3%;
+}
+
+.office-info .map {
+  display: block;
+  font-size: 1.2rem;
+  padding-top: 3%;
+}
+
+.office-info .map:hover {
+  color: #75bdff;
+}
+
+.footer-nav {
+  /* border: 1px solid purple; */
+  width: 30%;
+}
+
+.footer-nav ul li {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 3.5% 5%;
+}
+
+.footer-nav ul li a:hover {
+  color: #75bdff;
+}
+
+.copyright {
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 2% 0;
+}
+
+
+
+/* ------------------------------------------
+---------------------------------------------
+---------------------------------------------
+
+responsive
+
+----------------------------------------------
+----------------------------------------------
+-------------------------------------------- */
+@media screen and (max-width: 1024px) {
+  .header-inner {
+    justify-content: unset;
+  }
+
+  .header-logo {
+    width: 35%;
+    padding-left: 3%;
+  }
+
+  .header-logo h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .pc-header-nav {
+    width: 65%;
+  }
+
+  .pc-header-nav ul li {
+    font-size: 1rem;
+  }
+
+  .footer-logo a img {
+    width: 15%;
+  }
+
+  .footer-logo a h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-logo a h1 small {
+    font-size: 0.8rem;
+  }
+
+  .office-info h2 {
+    font-size: 1.2rem;
+  }
+
+  .office-info .tel {
+    font-size: 1.2rem;
+  }
+
+  .footer-nav ul li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-logo {
+    width: 70%;
+  }
+
+  .header-logo img {
+    width: 15%;
+  }
+
+  .pc-header-nav {
+    display: none;
+  }
+
+  .sp-header-nav {
+    /* border: 1px solid red; */
+    display: block;
+    margin-left: auto;
+    margin-right: 3%;
+  }
+
+  .sp-header-nav #open {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  .sp-header-nav #open.hide {
+    display: none;
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0%;
+    background: rgba(255,255,255, 0.95);
+    text-align: center;
+    padding: 15% 0;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s;
+  }
+
+  .overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .overlay #close {
+    position: fixed;
+    top: 1%;
+    right: 3%;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  .overlay ul li {
+    font-size: 1.2rem;
+    margin-bottom: 7.5%;
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.3s, transform 0.3s;
+  }
+
+  .overlay.show li {
+    opacity: 1;
+    transform: none;
+  }
+
+  .overlay.show li:nth-child(1) {
+    transition-delay: 0.1s;
+  }
+
+  .overlay.show li:nth-child(2) {
+    transition-delay: 0.2s;
+  }
+
+  .overlay.show li:nth-child(3) {
+    transition-delay: 0.3s;
+  }
+
+  .overlay.show li:nth-child(4) {
+    transition-delay: 0.4s;
+  }
+
+  .overlay.show li:nth-child(5) {
+    transition-delay: 0.5s;
+  }
+
+  .overlay li span::before,
+  .overlay li span::after {
+    content: "";
+    background: gray;
+    height: 2px;
+    width: 3%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2%;
+  }
+
+  .footer-inner {
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    width: 40%;
+  }
+
+  .office-info {
+    width: 50%;
+  }
+
+  .footer-nav {
+    width: 100%;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-logo h1 {
+    font-size: 1.2rem;
+  }
+
+  .header-logo h1 small {
+    font-size: 0.8rem;
+  }
+
+  .footer-logo {
+    /* display: block; */
+    width: 50%;
+    margin: 3% auto;
+  }
+
+  .office-info {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer-logo a h1 {
+    font-size: 1rem;
+  }
+
+  .office-info {
+    margin: 5% auto;
+  }
+
+  .office-info h2 {
+    font-size: 1rem;
+  }
+
+  .office-info .tel,
+  .office-info .address {
+    font-size: 0.8rem;
+  }
+
+  .office-info a.map {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+

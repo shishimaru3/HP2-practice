@@ -1,0 +1,214 @@
+/* --------------------------------------------
+
+message section
+
+----------------------------------------------- */
+.message {
+  text-align: center;
+}
+
+.message h2 {
+  font-size: 2rem;
+  padding: 3% 0;
+}
+
+.message message {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* ------------------------------------------------
+
+recruit section
+
+--------------------------------------------------- */
+.recruit-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recruit-item {
+  position: relative;
+  width: 33%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.recruit-item:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.recruit-item img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.recruit-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  color: white;
+  -webkit-text-stroke: 0.5px black;
+  /* text-stroke: 0.5px black; */
+}
+
+/* -------------------------------------------------
+
+voice section
+
+--------------------------------------------------- */
+.voice > .inner {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  border: 3px solid #ff6400;
+  border-radius: 30px;
+}
+
+.voice-title {
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+  background: white;
+  padding: 1% 2%;
+}
+
+.voice-wrapper {
+  margin: 5% 0;
+}
+
+.voice-item {
+  display: flex;
+  width: 90%;
+  margin: 3% auto;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.voice-item img {
+  border: 1px solid black;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.voice-item voice {
+  width: 80%;
+}
+
+.voice-item p {
+  padding: 1% 0;
+}
+
+/* -----------------------------------------------
+--------------------------------------------------
+--------------------------------------------------
+
+responsive
+
+--------------------------------------------------
+--------------------------------------------------
+------------------------------------------------- */
+@media screen and (max-width: 768px){
+  .message {
+    text-align: left;
+  }
+
+  .message h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .message message {
+    font-size: 1rem;
+  }
+
+  .message .sp {
+    display: none;
+  }
+
+  .recruit-item p {
+    font-size: 1.5rem;
+  }
+
+  .voice > .inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .voice-title {
+    font-size: 1.5rem;
+  }
+
+  .voice-item voice {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .recruit-item {
+    width: 70%;
+    margin: 3% auto;
+  }
+
+  .recruit-item p {
+    font-size: 2rem;
+  }
+
+  .voice-item {
+    display: block;
+  }
+
+  .voice-item img {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .voice > .btn {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .voice > .btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .message h2 {
+    font-size: 1.1rem;
+    text-align: left;
+  }
+
+  .recruit-item {
+    width: 90%;
+  }
+
+  .voice-wrapper {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .voice-item img {
+    width: 40%;
+  }
+}

@@ -1,0 +1,149 @@
+/* .section {
+  border: 3px solid blue;
+} */
+
+.inner {
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: 5% auto;
+}
+
+.btn {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+  background: white;
+  border: 1px solid #00a3ff;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: #00a3ff;
+}
+
+.btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #00a3ff;
+  font-size: 1.5rem;
+  padding: 2% 0;
+}
+
+.btn a:hover {
+  color: white;
+}
+
+/* -----------------------------------
+
+top
+
+--------------------------------------*/
+.top {
+  width: 100%;
+}
+
+.top-title {
+  position: relative;
+}
+
+.top-title img {
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%);
+}
+
+.top-title h1 {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  font-size: 3rem;
+}
+
+.top-title h1 small {
+  display: block;
+  font-size: 1.5rem;
+  margin-top: 3%;
+}
+
+.breadcrumb {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: 2% auto;
+}
+
+.breadcrumb-list {
+  display: flex;
+}
+
+.breadcrumb-item {
+  font-size: 1.5rem;
+}
+
+.breadcrumb-item::after {
+  content: ">";
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+
+.breadcrumb-item:last-child::after {
+  display: none;
+}
+
+.breadcrumb-color {
+  color: #75bdff;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+/* -------------------------------
+
+responsive
+
+-----------------------------------*/
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 60%;
+  }
+
+  .top-title h1 {
+    font-size: 2rem;
+  }
+
+  .top-title h1 small {
+    font-size: 1rem;
+  }
+
+  .breadcrumb-item {
+    font-size: 1rem;
+  }
+
+  .breadcrumb-item::after {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .top-title img {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 70% 50%);
+  }
+}
+
+@media  screen and (max-width: 425px) {
+  .btn {
+    width: 80%;
+  }
+
+  .top-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .top-title h1 small {
+    font-size: 0.75rem;
+  }
+}

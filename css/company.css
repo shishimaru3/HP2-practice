@@ -1,0 +1,556 @@
+/* -----------------------------------------
+
+message section
+
+-------------------------------------------- */
+.section-title {
+  font-size: 3rem;
+  background: linear-gradient(transparent 80%, #ff6400);
+}
+
+.section-title small {
+  font-size: 1.5rem;
+  padding-left: 3%;
+}
+
+.message-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3% auto;
+}
+
+.message-wrapper img {
+  width: 40%;
+  height: 100%;;
+}
+
+.message-wrapper message {
+  width: 55%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.message-wrapper p {
+  margin-bottom: 3%;
+}
+
+.ceo-name {
+  padding-left: 60%;
+}
+
+/* --------------------------------------------
+
+vision section
+
+--------------------------------------------- */
+.vision-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3% auto;
+}
+
+.vision-description {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.vision-description h3 {
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+}
+
+.vision-img {
+  width: 40%;
+}
+
+.vision-img img {
+  width: 100%;
+}
+
+/* ------------------------------------------------------
+
+service section
+
+-------------------------------------------------------- */
+.service-wrapper {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3% auto;
+}
+
+.service-description {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.service-img {
+  width: 40%;
+  height: 100%;
+}
+
+.service-img img {
+  width: 100%;
+}
+
+/* -------------------------------------------
+
+about section
+
+----------------------------------------------*/
+.about-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.overview-wrapper {
+  width: 48%;
+}
+
+.overview-wrapper h3 {
+  font-size: 2.2rem;
+  padding: 5% 0;
+  text-decoration: underline;
+}
+
+.overview-line {
+  display: flex;
+  margin-bottom: 5%;
+  border-bottom: 1px solid gray;
+}
+
+.overview-line h4 {
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+.overview-line p {
+  width: 70%;
+  font-size: 1.2rem;
+}
+
+.history-wrapper {
+  width: 48%;
+}
+
+.history-wrapper h3 {
+  font-size: 2.2rem;
+  padding: 5% 0;
+  text-decoration: underline;
+}
+
+.history-line {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.history-line time {
+  width: 25%;
+  font-size: 1.2rem;
+}
+
+.history-line p {
+  width: 75%;
+  font-size: 1.2rem;
+  word-break: break-all;
+}
+
+/* --------------------------------------------
+
+board section
+
+------------------------------------------------*/
+.upper-board {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.upper-board h3 {
+  font-size: 2rem;
+  padding: 5% 0 2%;
+}
+
+.member-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.member1 {
+  width: 48%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.member1:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.member1 img {
+  width: 100%;
+}
+
+.member1 p {
+  font-size: 1.2rem;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.lower-board {
+  width: 90%;
+  margin: 3% auto;
+}
+
+.lower-board h3 {
+  font-size: 2rem;
+  padding: 5% 0 2%;
+}
+
+.member2 {
+  width: 30%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.member2:hover {
+  opacity: 0.7;
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.member2 img {
+  width: 100%;
+}
+
+.member2 p {
+  font-size: 1.2rem;
+  padding-top: 3%;
+  text-align: center;
+}
+
+/* ------------------------------------------------
+
+csr section
+
+------------------------------------------------- */
+.csr {
+  background: url(../img/csr-bg.png) no-repeat center;
+  background-size: cover;
+  padding: 3% 0;
+  margin-bottom: 5%;
+}
+
+.csr-message {
+  width: 55%;
+  margin: 5% 0 0 5%;
+}
+
+.csr-message message { 
+  font-size: 1.2rem;
+}
+
+.csr-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5% 0;
+}
+
+.csr-item {
+  width: 35%;
+  transition: all 0.3s ease-in-out 0s;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.csr-item:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.csr-item img {
+  width: 100%;
+}
+
+.csr-item time {
+  display: block;
+  text-align: center;
+  padding: 3% 0;
+}
+
+
+
+/* --------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+
+responsive
+
+-----------------------------------------------
+-----------------------------------------------
+----------------------------------------------- */
+@media screen and (max-width: 1024px) {
+  .about-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .overview-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .overview-wrapper h3 {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .overview-wrapper h3::before,
+  .overview-wrapper h3::after {
+    content: "";
+    background: gray;
+    height: 2px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5%;
+  }
+
+  .history-wrapper {
+    width: 90%;
+    margin: auto;
+  }
+
+  .history-wrapper h3 {
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .history-wrapper h3::before,
+  .history-wrapper h3::after {
+    content: "";
+    background: gray;
+    height: 2px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-title small {
+    font-size: 1rem;
+  }
+
+  .message-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .message-wrapper img {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .message-wrapper message {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .ceo-name {
+    padding: unset;
+    text-align: center;
+  }
+
+  .vision-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .vision-description {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .vision-img {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .vision-img img {
+    width: 100%;
+  }
+
+  .service-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .service-description {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .service-img {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3%;
+  }
+
+  .upper-board h3 {
+    font-size: 1.5rem;
+  }
+
+  .lower-board h3 {
+    font-size: 1.5rem;
+  }
+
+  .csr-message {
+    width: 80%;
+    margin: 3% auto;
+  }
+
+  .csr-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .inner {
+    width: 100%;
+  }
+
+  .section-title {
+    margin: 0 5%;
+  }
+
+  .message-wrapper message{
+    font-size: 1rem;
+  }
+
+  .vision-description h3 {
+    font-size: 1.2rem;
+  }
+
+  .vision-description p {
+    font-size: 1rem;
+  }
+
+  .service-description {
+    font-size: 1rem;
+  }
+
+  .overview-wrapper h3 {
+    font-size: 1.5rem;
+  }
+
+  .overview-line h4 {
+    font-size: 1.2rem;
+  }
+
+  .overview-line p {
+    font-size: 1rem;
+  }
+
+  .history-wrapper h3 {
+    font-size: 1.5rem;
+  }
+
+  .history-line time {
+    font-size: 1rem;
+  }
+
+  .history-line p {
+    font-size: 1rem;
+  }
+
+  .member-wrapper {
+    display: block;
+  }
+
+  .upper-board h3 {
+    text-align: center;
+  }
+
+  .upper-board h3::before,
+  .upper-board h3::after {
+    content: "";
+    background: gray;
+    height: 2px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3%;
+  }
+
+  .member1 {
+    width: 75%;
+    margin: 3% auto;
+  }
+
+  .member1 img {
+    width: 100%;
+  }
+
+  .lower-board h3 {
+    text-align: center;
+  }
+
+  .lower-board h3::before,
+  .lower-board h3::after {
+    content: "";
+    background: gray;
+    height: 2px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3%;
+  }
+
+  .member2 {
+    width: 60%;
+    margin: 3% auto;
+  }
+
+  .member2 img {
+    width: 100%;
+  }
+
+  .csr-message message {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .overview-line h4 {
+    font-size: 1rem;
+  }
+
+  .upper-board h3 {
+    font-size: 1.2rem;
+  }
+
+  .member1 p {
+    font-size: 1rem;
+  }
+
+  .lower-board h3 {
+    font-size: 1.2rem;
+  }
+
+  .member2 p {
+    font-size: 1rem;
+  }
+}
