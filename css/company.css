@@ -466,6 +466,10 @@ responsive
     font-size: 1rem;
   }
 
+  .overview-line {
+    height: 4vh;
+  }
+
   .overview-line h4 {
     font-size: 1rem;
   }
