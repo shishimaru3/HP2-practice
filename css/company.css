@@ -438,7 +438,12 @@ responsive
   }
 
   .section-title {
+    font-size: 1.2rem;
     margin: 0 5%;
+  }
+
+  .section-title small {
+    font-size: 0.8rem;
   }
 
   .message-wrapper message{
@@ -446,7 +451,7 @@ responsive
   }
 
   .vision-description h3 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
 
   .vision-description p {
@@ -458,19 +463,19 @@ responsive
   }
 
   .overview-wrapper h3 {
-    font-size: 1.5rem;
-  }
-
-  .overview-line h4 {
     font-size: 1.2rem;
   }
 
-  .overview-line p {
+  .overview-line h4 {
     font-size: 1rem;
   }
 
+  .overview-line p {
+    font-size: 0.9rem;
+  }
+
   .history-wrapper h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .history-line time {
@@ -478,7 +483,7 @@ responsive
   }
 
   .history-line p {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .member-wrapper {
@@ -486,6 +491,7 @@ responsive
   }
 
   .upper-board h3 {
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -509,7 +515,12 @@ responsive
     width: 100%;
   }
 
+  .member1 a p {
+    font-size: 0.9rem;
+  }
+
   .lower-board h3 {
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -533,33 +544,11 @@ responsive
     width: 100%;
   }
 
+  .member2 a p {
+    font-size: 0.9rem;
+  }
+
   .csr-message message {
-    font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .section-title {
-    font-size: 1.2rem;
-  }
-
-  .overview-line h4 {
-    font-size: 1rem;
-  }
-
-  .upper-board h3 {
-    font-size: 1.2rem;
-  }
-
-  .member1 p {
-    font-size: 1rem;
-  }
-
-  .lower-board h3 {
-    font-size: 1.2rem;
-  }
-
-  .member2 p {
     font-size: 1rem;
   }
 }

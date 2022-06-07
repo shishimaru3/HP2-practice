@@ -212,8 +212,12 @@ responsive
 }
 
 @media screen and (max-width: 550px) {
-  .swimming-wrapper p {
+  .section-title {
     font-size: 1.2rem;
+  }
+
+  .swimming-wrapper p {
+    font-size: 1rem;
   }
 
   .swimming-item {
@@ -222,7 +226,7 @@ responsive
   }
 
   .gymnastics-wrapper p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .gymnastics-item {
@@ -231,7 +235,7 @@ responsive
   }
 
   .dance-wrapper p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .dance-item {
@@ -240,7 +244,7 @@ responsive
   }
 
   .music-wrapper p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .music-item {
@@ -250,11 +254,5 @@ responsive
 
   .click-line {
     font-size: 1rem;
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .section-title {
-    font-size: 1.2rem;
   }
 }
