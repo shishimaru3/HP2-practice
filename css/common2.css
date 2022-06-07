@@ -128,6 +128,10 @@ responsive
   .top-title img {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 70% 50%);
   }
+
+  .btn a {
+    font-size: 0.9rem;
+  }
 }
 
 @media  screen and (max-width: 425px) {
